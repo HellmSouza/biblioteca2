@@ -46,11 +46,7 @@
     <div class="row">
         <div class="cool mt-5">
         <?php
-<<<<<<< HEAD
-          #include(conexao.php);
-=======
-          include(conexao.php);
->>>>>>> bca1875 (atualizacao)
+          include("conexao.php");
             switch (@$_REQUEST["pagina"]){
                 case "cadastrar_livro";
                     include("cadastro_livro.php");
