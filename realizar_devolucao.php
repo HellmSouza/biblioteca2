@@ -19,37 +19,6 @@
 <body>
 <h1>Realizar Devolução</h1>
     <form action="envioEmail.php" method="POST">
-
-<<<<<<< HEAD
-    <p>
-        <label>Nome do Locador</label> <!--puxar do banco -->
-    </p>
-    <p>
-        <label>Nome do Livro</label> <!--puxar do banco -->
-    </p>
-    <p>
-        <label>E-mail do Locador</label> <!--puxar do banco -->
-    </p>
-    <p>
-        <label>Data de Locação</label> <!--puxar do banco -->
-    </p>
-    <p>
-        <label>Data Prevista para Entrega</label> <!--puxar do banco -->
-    </p>
-    <p>
-        <label>Data de Devolução</label> 
-        <input type="date" name="data">
-    </p>
-    <p>
-        <label>Houve Multa de Atraso?</label> <!--informar se houve dado $diferencaData-->
-    </p>
-    <p>
-        <input type="submit" name="enviar" placeholder="Devolver">
-    </p>
-    <p>
-        <button type="submit">Voltar</button>
-    </p>
-=======
     <div>
         <label>Nome do Locador</label> <!--puxar do banco -->
     </div>
