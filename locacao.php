@@ -31,6 +31,7 @@
     <title>Cadastro de Locação</title>
 </head>
 <body>
+<<<<<<< HEAD
     <h1>Informações de Locação</h1>
     <form action="" method="POST">
     <p>
@@ -58,5 +59,37 @@
     <p>
         <button type="submit">Voltar</button>
     </p>
+=======
+<h1>Realizar Locação</h1>
+    <form action="salvar_locacao.php" method="POST">
+        <input type="hidden" name="acao" value="cadastrar">
+        <div class="mb-3">
+            <label>Nome do Locador</label>
+            <input type="text" name="nome_locador" class="form-control">
+        </div>    
+        <div class="mb-3">
+            <label>E-mail</label>
+            <input type="email" name="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label>Livro Locado</label>
+            <input type="text" name="nome_livro" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label>Data de Locação</label>
+            <input type="date" name="data_locacao" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label>Data Prevista para Entrega</label>
+            <input type="date" name="data_entrega" class="form-control">
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Realizar Locação</button>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Voltar</button>
+        </div>
+    </form>
+>>>>>>> bca1875 (atualizacao)
 </body>
 </html>

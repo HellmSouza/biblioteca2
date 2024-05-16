@@ -1,16 +1,12 @@
 <?php
     switch ($REQUEST["acao"]) {
         case 'cadastrar':
-            $nomeLivro = $_POST["nome_livro"];
             $nomeAutor = $_POST["nome_autor"];
-            $lancamento = $_POST["lancamento"];
-<<<<<<< HEAD
-=======
+            $telefone = $_POST["telefone"];
 
-            $sql = "INSERT INTO biblioteca (nome_livro, lancamento) VALUES ('{$nomeLivro}', '{$lancamento}')";
+            $sql = "INSERT INTO biblioteca (nome_autor, telefone) VALUES ('{$nomeAutor}', '{$telefone}')";
 
             $resultado = $mysqli->query($sql);
->>>>>>> bca1875 (atualizacao)
             break;
         
         case 'editar':
