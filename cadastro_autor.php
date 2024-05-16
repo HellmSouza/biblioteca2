@@ -50,11 +50,11 @@ if(isset($_POST['nome_autor']) || isset($_POST['telefone'])){
         <input type="hidden" name="acao" value="cadastrar">
         <div class="mb-3">
             <label>Nome do Autor</label>
-            <input type="text" name="nome_autor" class="form-control">
+            <input type="text" name="nome" class="form-control">
         </div>
         <div class="mb-3">
             <label>Telefone</label>
-            <input type="date" name="telefone" class="form-control">
+            <input type="text" name="telefone" class="form-control">
         </div>
         <div class="mb-3">
             <button type="submit" class="btn btn-primary">Cadastrar Autor</button>

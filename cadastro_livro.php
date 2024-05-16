@@ -8,7 +8,7 @@
 <body>
     <h1>Cadastrar Livro</h1>
     <form action="salvar_livro.php" method="POST">
-        <input type="hidden" name="acao" value="cadastrar">
+        <input type="hidden" name="salvar" value="cadastrar">
         <div class="mb-3">
             <label>Nome do Livro</label>
             <input type="text" name="nome_livro" class="form-control">
